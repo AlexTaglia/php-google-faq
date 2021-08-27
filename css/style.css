@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -5,4 +11,43 @@ body{
 .container{
     max-width: 978px;
     margin: 0 auto;
+    padding: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #3367d6;
+}
+
+li{
+    line-height: 24px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+h2, h3{
+    /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
+    font-family: sans-serif;
+    color: #3c4043;
+}
+
+h2{
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 64px;
+}
+
+h3{
+    padding-top: 52px;
+}
+
+p{
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.reply{
+    font-weight: 400;
+    font-size: 14px;
 }
