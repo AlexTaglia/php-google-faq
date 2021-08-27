@@ -63,7 +63,7 @@
     ]
 ?>
 
-<div class="container">
+<div class="container main">
     <?php
         foreach ($faqs as $faq){ ?>
 
@@ -75,7 +75,37 @@
     ?>
 </div>
 
-<a href=""></a>
+<footer>
+    <div class="container d-flex">
+        <div class="left">
+            <ul>
+                <li><a href="https://www.google.com/">Google</a></li>
+                <li>&middot</li>
+                <li><a href="https://about.google/">Tutto su Google</a></li>
+                <li>&middot</li>
+                <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                <li>&middot</li>
+                <li><a href="https://policies.google.com/terms">Termini</a></li>
+            </ul>
+        </div>
+    
+        <div class="right">
+            <img src="./img/lan.png" alt="">
+            <select>
+                <option value="it">Italiano</option>
+                <option value="af">Afrikaans</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="ms">Bahasa Melayu</option>
+                <option value="ca">Català</option>
+                <option value="cs">Čeština</option>
+                <option value="da">Dansk</option>
+                <option value="de">Deutsch</option>
+                <option value="et">Eesti</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </div>
+</footer>
 
 
 
