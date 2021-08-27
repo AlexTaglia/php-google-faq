@@ -67,14 +67,15 @@
     <?php
         foreach ($faqs as $faq){ ?>
 
-            <h2 class=""><?php echo $faq['question']?> </h2>
+            <h2 class="accordion"><?php echo $faq['question']?> </h2>
             
-            <div class="reply"><?php echo $faq['answer']?> </div>
+            <div class="panel reply"><?php echo $faq['answer']?> </div>
 
         <?php }
     ?>
 </div>
 
+<div class="footer"></div> <!-- per dare spazio all'ultimo paragrafo -->
 <footer>
     <div class="container d-flex">
         <div class="left">
@@ -107,9 +108,25 @@
     </div>
 </footer>
 
+<!-- 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script> -->
 
-
+<script type="text/javascript" src="./js/script.js"></script>
 
     
 </body>
